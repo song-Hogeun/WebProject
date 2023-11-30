@@ -1,0 +1,182 @@
+@charset "EUC-KR";
+@font-face { /* 폰트 스타일 */
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	*{
+		margin: 0; /* 기본값 초기화 */
+		padding: 0;
+		
+		font-family: 'MBC1961GulimM';
+	}
+	
+	header {
+		background-image: url("img/MainEmage.jpg"); /* 메인페이지 이미지 */
+		
+		width: auto;
+		height: 500px;
+		border: 0.1px solid white;
+		box-shadow: 0px 0px 5px #444; /* 박스 크기 및 테두리, 그림자 설정 */
+	}
+	
+	main {
+		background-color:whitesmoke;
+		box-shadow: 12px 12px 2px 1px lightgray;
+		width: 1400px;
+		height: 3000px;
+		margin : 50px auto;
+		/*20px 280px;*/
+	}
+	
+	footer {
+		width: auto;
+		height: 150px;
+		border:0.5px double whitesmoke;
+		margin: 20px auto;
+		background-color:floralwhite;
+	}
+	
+	.title_font {
+		margin: 180px auto;
+		text-align: center;
+		font-size: 80px;
+		color:ghostwhite;
+		text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	}
+	
+	.menubar { /* 상단 메뉴바 */
+	  height: 75px;
+	  padding: 0.5rem;
+	  color: black; /* 폰트 색 */
+	  
+	  background-color:floralwhite;
+	  font-weight: bold; /* 폰트 굵기 */
+	  display: flex; /* flex box */
+	  justify-content: space-between; /* 배치 방식 */
+	  align-items: center;
+	  box-shadow: 3px 3px 3px 3px #666;
+	  position:fixed; /* 메뉴바 상단 고정 */
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	}
+	
+	.Sub_Title {
+		font-size: 20px;
+		text-align: center;
+		color:palegoldenrod;
+		text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	}
+	
+	.postMainBox{
+		margin: 0 auto;
+		
+		width: 1200px;
+		height: 2800px;
+		
+		border : 1px solid black;
+	}
+	
+	.postTextBox{
+		float : left;
+		
+		width: 700px;
+		height: 2750px;
+		
+		border : 1px solid black;
+		
+		line-height: 2.5;
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	.postEmageBox{
+		display:inline-block;
+		
+		width: 448px;
+		height: 2750px;
+		
+		border : 1px solid black;
+	}
+	
+	.Emage1{
+		margin: 70px auto;
+		
+		background-image: url("img/postEmage1.jpg");
+		background-size: cover;
+		
+		border: 1px solid black;
+		
+		width: 400px;
+		height: 380px;
+	}
+	
+	.Emage2{
+		margin: 70px auto;
+		
+		background-image: url("img/postEmage2.png");
+		background-size: cover;
+		
+		border: 1px solid black;
+		
+		width: 400px;
+		height: 400px;
+	}
+	
+	.Emage3{
+		margin: 70px auto;
+		
+		background-image: url("img/postEmage3.jpg");
+		background-size: cover;
+		
+		border: 1px solid black;
+		
+		width: 400px;
+		height: 350px;
+	}
+	
+	.Emage4{
+		margin: 70px auto;
+		
+		background-image: url("img/postEmage4.jpg");
+		background-size: cover;
+		
+		border: 1px solid black;
+		
+		width: 400px;
+		height: 350px;
+	}
+	
+	.Emage5{
+		margin: 70px auto;
+		
+		background-image: url("img/postEmage5.jpg");
+		background-size: cover;
+		
+		border: 1px solid black;
+		
+		width: 400px;
+		height: 350px;
+	}
+	
+	.textcolor_indianred{
+		color:indianred;
+		font-weight:bolder;
+	}
+	
+	.textcolor_royalblue{
+		color:royalblue;
+	}
+	
+	.textcolor_royalblue_doubleUnderline{
+		color:royalblue;
+		border-bottom: 4px double;
+	}
+	
+	.textcolor_seagreen_doubleUnderline{
+		color:seagreen;
+		border-bottom: 4px double;
+	}
